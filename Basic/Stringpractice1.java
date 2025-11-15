@@ -8,7 +8,7 @@ package stringpractice;
  *
  * @author vishnugupta
  */
-public class Stringpractice {
+public class Stringpractice1 {
 
     /**
      * @param args the command line arguments
