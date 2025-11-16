@@ -14,6 +14,9 @@ public class Stringmatches {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
+
+
+        //MATCHING SYMBOLS
         
         String str ="XZ";
         
