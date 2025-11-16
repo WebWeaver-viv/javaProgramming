@@ -24,6 +24,19 @@ public class Stringmatches {
         System.out.println(str.matches("[a-z][A-Z][0-9]"));//a-z A-Z 0-1 like "aD4"  its true
         System.out.println(str.matches("A|b"));// A|b only
         System.out.println(str.matches("XZ"));//exactly XZ
+
+
+         
+        //META CHARACTER
+        
+        String str1 ="@";
+        
+        System.out.println(str1.matches("\\d"));//Digits
+        System.out.println(str1.matches("\\D"));//Not Digits
+        System.out.println(str1.matches("\\s")); //Space
+        System.out.println(str1.matches("\\S"));// not Space
+        System.out.println(str1.matches("\\w"));//Alphabet and  digit
+        System.out.println(str1.matches("\\W"));// Neither alphabet and digits
     }
 
 }
