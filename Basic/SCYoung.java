@@ -12,9 +12,9 @@ public class SCYoung {
         System.out.println("Enter a Age ");
         age = sc.nextInt();
         
-        if(age >= 18 ){
+        if(age >= 18  && age <= 55){
         System.out.println("A person is  Young");
-        } else if ( age < 18){
+        } else if ( age < 18 || age >= 55){
         System.out.println("A person is not  Young");
         }
     }
