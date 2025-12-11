@@ -7,7 +7,11 @@ public class SCCST02 {
 
    
     public static void main(String[] args) {
-        
+
+       
+        // ------------ find a person is  young or not young ------------
+
+       
         Scanner scan = new Scanner(System.in);
         System.out.println("Enter a Age");
         int age =  scan.nextInt();
